@@ -9,16 +9,16 @@
 <form action="#">
 <div>
 <label for="fname"> first name: </label>
-<input type="text" id="fname" name="fname">
+<input type="text" id="fname" name="fname" pattern="[^0-9]*">
 </div>
 <div>
 <label for="lname"> last name</label>
-<input type="text" id="lname" name="lname">
+<input type="text" id="lname" name="lname" pattern="[^0-9]*">
 </div> 
 <div>
-    <input type="radio" name="Heer" id="man">
+    <input type="radio" name="gender" id="man" value="man" checked>
     <label for="Heer">Heer</label>
-    <input type="radio" name="Mevrouw" id="vrouw">
+    <input type="radio" name="gender" id="vrouw">
 <label for="Mevrouw">Mevrouw</label>
 </div>
 <label for="password">wachtwoord</label>
@@ -28,7 +28,17 @@
     <label for="adres1">straat huisnummer</label>
     <input type="text" name="adres1" id="adres1">
     <label for="postcode">postcode</label>
+    <input type="text" name="postcode" id="postcode">
+    <label for="stad">stad</label>
+    <input type="text" name="stad" id="stad">
+    <label for="land">land</label>
+    <input type="text" name="land" id="land">
 </div>
+<div>
+    <label for="BSN-nummer">BSN-nummer</label>
+    <input type="text" name="BSN-nummer" id="BSN-nummer" min="9" max="9">
+</div>
+
 
 </form>
 </body>
