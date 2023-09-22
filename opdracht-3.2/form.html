@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<>
 <form action="#">
 <div>
 <label for="fname"> first name: </label>
@@ -39,8 +39,33 @@
     <input type="text" name="BSN-nummer" id="BSN-nummer" min="9" max="9">
 </div>
 <div>
-    <label for="vakantieland">vakantieland</label>
-    
+    <label for="vakantieland">Selecteer een vakantieland:</label>
+    <select id="vakantieland" name="vakantieland">
+        <option value="italie">Italië</option>
+        <option value="spanje">Spanje</option>
+        <option value="frankrijk">Frankrijk</option>
+        <option value="greece">Griekenland</option>
+        <option value="portugal">Portugal</option>
+        <option value="thailand">Thailand</option>
+        <option value="australie">Australië</option>
+        <option value="canada">Canada</option>
+        <option value="brazilie">Brazilië</option>
+        <option value="zuid-afrika">Zuid-Afrika</option>
+    </select>
+</div>
+<div>
+    <label for="datum vertrek">vertrek datum</label>
+    <input type="date" name="datum vertrek" id="vertrek datum" onchange="validateDate(currentDate)">
+    <br>
+    <label for="datum terugkomst">datum terugkomst</label>
+    <input type="date" name="datum terugkomst" id="">
+</div>
+<div>
+    <label for="aantal reisgenoten">aantal reisgenoten</label>
+    <input type="number" name="aantl reisgenoten" id="aantal reisgenoten" max="4" min="1"> 
+</div>
+<div>
+    <input type="submit" value="Boek nu">
 </div>
 </form>
 </body>
