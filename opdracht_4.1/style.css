@@ -16,3 +16,28 @@ text-decoration: none;}
  a:hover{text-decoration: none;}
  a:active{text-decoration: none;}
  body{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+ html{
+    font-size: 62.5%;
+ }
+ header{
+    font-size: 40px;
+    background-image: url(img/downloaden.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ header h1{
+    color: crimson;
+ }
+ header p{
+    color: orange;
+ }
+ img {
+    width: 500px;
+ }
+ article {
+    border-style: dashed;
+    border-left: solid;
+    border-left-width: thick;
+    
+ }
