@@ -1,0 +1,19 @@
+.nav-bar {
+    display: flex;
+    width: 1200px;
+    height: 20vh;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+.item {
+    color: blue;
+}
+.item-l {   
+color: blue;
+}
+.item-r { 
+color: blue;
+}
