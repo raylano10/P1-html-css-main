@@ -1,3 +1,6 @@
+*{
+    color: blue;
+}
 .nav-bar {
     display: flex;
     width: 1200px;
@@ -8,12 +11,24 @@
 
 
 }
-.item {
-    color: blue;
+ul {    
+display: flex;
+
 }
-.item-l {   
-color: blue;
+li {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin: auto;
 }
-.item-r { 
-color: blue;
+.left {
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+.right {
+    display: flex;
+    margin: auto;
+    text-align: center;
 }
