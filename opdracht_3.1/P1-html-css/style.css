@@ -9,7 +9,7 @@
   body {
     font-family: "Goldman", cursive;
     position: absolute;
-    height: 100vh;
+    min-height: 100vh;
   }
   header{
     position: fixed;
@@ -108,49 +108,81 @@ display: block;
     background-color:black;
     color: white;
   }
-  .div-java {
+  .sect-java {
     display: flex;
-    text-align: center;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+  margin: 20vh 10vh;
   }
+
   .p-java {
-    float: left;
-    margin-top: 50px;
-    font-size: 24px;
+font-size: large;
   }
-.img-java {
- float: right;
-  margin-left: auto;
-  margin-right: auto;
-}  
+
+  .h1-java {
+  text-align: center;
+}
+  
+
 .body-sql {
     width: 100%;
     height: 200px;
     background-color:black;
     color: white;
 }
-.img-SQL {
- float: right;
+.nav-sql {
+  display: flex;
+justify-content: center;
+}
+.img-sql {
+
  margin-left: auto;
  margin-right: auto;
 }
-.p-SQL {
- float: left;
+.p-sql {
+
  margin-left: auto;
  margin-right: auto;
   font-size: 15px;
 }
-.h1-java {
-  text-align: center;
-}
+
 .h1-sql{
   text-align: center;
 }
-.h2-SQL {
+.h2-sql {
   text-align: center;
-  float: left;
+  
   margin-left: auto;
   margin-right: auto;
 }
+.sect-html {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+  margin: 20vh 10vh;
+}
+.p-html {
+  font-size: medium
+}
+.sect-php {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+  margin: 20vh 10vh;
+}
+.p-php {
+  font-size: large;
+}
+
 h1,h2,h3{
   font-weight: bold;
   margin: 16px 16px 16px 16px;
